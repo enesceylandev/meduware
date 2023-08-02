@@ -85,7 +85,7 @@
 }
 
 #ustadmin{
-  background-image: url(/meduwarewebsitedata/magaza/ustadmin.png);
+  background-image: url(./meduwarewebsitedata/magaza/ustadmin.png);
   display: block;
   position: absolute;
   z-index: 0;

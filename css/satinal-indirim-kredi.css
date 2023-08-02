@@ -85,7 +85,7 @@
 }
 
 #krediindirimi{
-  background-image: url(/meduwarewebsitedata/magaza/krediindirim.png);
+  background-image: url(./meduwarewebsitedata/magaza/krediindirim.png);
   display: block;
   position: absolute;
   z-index: 0;

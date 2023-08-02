@@ -85,7 +85,7 @@
 }
 
 #admin{
-  background-image: url(/meduwarewebsitedata/magaza/admin.png);
+  background-image: url(./meduwarewebsitedata/magaza/admin.png);
   display: block;
   position: absolute;
   z-index: 0;

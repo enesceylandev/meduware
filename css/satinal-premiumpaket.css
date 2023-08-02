@@ -85,7 +85,7 @@
 }
 
 #premiumpaket{
-  background-image: url(/meduwarewebsitedata/magaza/premiumpaket.png);
+  background-image: url(./meduwarewebsitedata/magaza/premiumpaket.png);
   display: block;
   position: absolute;
   z-index: 0;

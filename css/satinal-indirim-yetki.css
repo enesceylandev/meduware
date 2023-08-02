@@ -85,7 +85,7 @@
 }
 
 #yetkiindirimi{
-  background-image: url(/meduwarewebsitedata/magaza/yetkiindirim.png);
+  background-image: url(./meduwarewebsitedata/magaza/yetkiindirim.png);
   display: block;
   position: absolute;
   z-index: 0;

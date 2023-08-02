@@ -85,7 +85,7 @@
 }
 
 #medusupporterindirimi{
-  background-image: url(/meduwarewebsitedata/magaza/medusupporterindirimi.png);
+  background-image: url(./meduwarewebsitedata/magaza/medusupporterindirimi.png);
   display: block;
   position: absolute;
   z-index: 0;
