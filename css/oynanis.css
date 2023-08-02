@@ -1,0 +1,67 @@
+#altmenu{
+    top: 200px;
+}
+.anayazi{
+    color: #fff;
+    font-family: "torus";
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 5%;
+}
+.baslik{
+color: #fff;
+font-family: "torus";
+font-size: 70%;
+margin-left: 7%;
+}
+.ikiliyazi{
+display: flex;
+font-family: "torus";
+margin-bottom: 1%;
+margin-left: 10%;
+}
+.renkli{
+width: 70%;
+color: #fff;
+margin-right: 5%;
+text-align: left;
+}
+.renksiz{
+margin-left: -51%;
+width: 60%;
+color: rgba(255, 255, 255, 0.548);
+}
+
+.aciklama{
+margin-left: 10%;
+margin-bottom: 2%;
+margin-top: 0;
+width: 80%;
+font-family: "torus";
+display: flex;
+color: rgba(255, 255, 255, 0.548);
+}
+.madde{
+list-style-type: circle;
+margin-left: 10%;
+width: 80%;
+font-family: "torus";
+display: flex;
+color: rgba(255, 255, 255, 0.822);
+}
+@media screen and (max-width: 1055px) {
+    .baslik {
+        margin-left: 0px;
+        padding: 0px 20px;
+    }
+    .madde {
+        margin-left: 20px;
+        padding: 0px 20px;
+    }
+    .aciklama {
+        margin-left: 20px;
+        padding: 0px 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}

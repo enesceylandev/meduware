@@ -1,0 +1,41 @@
+#altmenu{
+    top: 500px;
+}
+.anayazi{
+    color: #fff;
+    font-family: "torus";
+    text-align: center;
+    margin-top: 150px;
+}
+.anayazi p{
+color: rgba(255, 255, 255, 0.829);
+margin-bottom: 38px;
+}
+.baslik{
+color: #fff;
+font-family: "torus";
+font-size: 70%;
+margin-left: 5%;
+}
+.madde{
+    list-style-type: circle;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    width: 80%;
+    font-family: "torus";
+    display: flex;
+    color: rgba(255, 255, 255, 0.822);
+}
+.aciklama{
+    margin-left: 5%;
+    margin-bottom: 20px;
+    width: 80%;
+    font-family: "torus";
+    display: flex;
+    color: rgba(255, 255, 255, 0.548);
+}
+@media screen and (max-width: 1055px) {
+    .madde{
+        margin-bottom: 20px;
+    }
+}

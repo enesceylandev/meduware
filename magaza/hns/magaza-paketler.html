@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mağaza | Meduware Clan</title>
+        <link rel="shortcut icon" href="/meduwarewebsitedata/sekmelogosu.png" type="image/x-icon" >
+        <link rel="shortcut icon" href="/meduwarewebsitedata/unknown.png" type="image/x-icon" >
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" href="/css/hns-magaza-paketler.css">
+        <link rel="stylesheet" href="/css/ortak.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Meduware görebileceğiniz en kaliteli oyun deneyimi!! Eklentileri ve yetkili kadromuz ile hep en iyisini hedefliyoruz!">
+        <meta name="keywords" content="meduware, saklambac, jb, jailbreak, surf, awp, kaliteli, kalite, en iyi, iyi, sunucu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <div class="topnav" id="myTopnav">
+        <a href="/" class="logo"></a>
+      <a href="/" id="renkli" class="yazilar">ana sayfa</a>
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli">sunucularımız
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" id="baglan_saklambac">saklambac</a>
+          <a href="#" id="baglan_hns">hns</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli" class="yazilar">sıralama
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://cs.center/server/45.10.56.56/27015" target="_blank">saklambac</a>
+    
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli" class="yazilar">topluluk
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">yasaklamalar(bakımda)</a>
+          <a href="/topluluk/icerikuretisi.html">içerik üreticileri</a>
+          <a href="https://discord.gg/wbJRVpA" target="_blank">discord sunucumuz</a>
+          <a href="https://steamcommunity.com/groups/meduware" target="_blank">steam grubumuz</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli" class="yazilar">yardım
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/yardim/oynanis.html">nasıl oynanır?</a>
+          <a href="/yardim/sss.html">sıkça sorulan sorular</a>
+          <a href="/yardim/kurallar.html">kurallar</a>
+          <a href="/yardim/">hayır, gerçekten yardıma ihtiyacım var!</a>
+        </div>
+      </div> 
+      <a href="/magaza/" id="active" class="yazilar">mağaza</a>
+      <a href="https://steamcommunity.com/id/medusacollins" target="_blank" id="renkli" class="yazilar">iletişim</a>
+        <div class="sagcerceve">
+            <a href="https://discord.gg/wbJRVpA" target="_blank" ><i class="fab fa-discord"></i></a>
+            <a href="/medusupporter/"><i class="fas fa-heart"></i></a>
+        </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" id="mobilbutton" onclick="myFunction()">&#9776;</a>
+    </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+      <div class="modal-container" id ="modal_container">
+        <div class="modal-text" id ="saklambacyazi">
+            <h1>Biraz sakinleşelim (o´･_･)っ </h1>
+            <p>
+                Bu yaptığın işlem direkt olarak sunucuya bağlanmanı sağlar. Bunu istediğine emin misin?
+            </p>
+            <button2 id="no_saklambac">
+                hayır
+            </button2>
+
+            <a type="button2" id="yes" href="steam://connect/45.10.56.56:27015" target="_blank" class= "button3">
+                evet kesinlikle!
+            </a>
+        </div>
+        <div class="modal-text" id ="hnsyazi">
+          <h1>Biraz sakinleşelim (o´･_･)っ </h1>
+          <p>
+              Bu yaptığın işlem direkt olarak sunucuya bağlanmanı sağlar. Bunu istediğine emin misin?
+          </p>
+          <button2 id="no_hns">
+              hayır
+          </button2>
+
+          <a type="button2" id="yes" href="steam://connect/185.243.182.38" target="_blank" class= "button3">
+              evet kesinlikle!
+          </a>
+      </div>
+      </div>
+      <script>
+        var baglan_saklambac =document.getElementById('baglan_saklambac');
+        var baglan_hns =document.getElementById('baglan_hns');
+        var saklambacyazi =document.getElementById('saklambacyazi');
+        var hnsyazi =document.getElementById('hnsyazi');
+        var modal_container =document.getElementById('modal_container');
+        var no_saklambac =document.getElementById('no_saklambac');
+        var no_hns =document.getElementById('no_hns');
+        var yes =document.getElementById('yes');
+    
+        baglan_saklambac.addEventListener('click', () => {
+        modal_container.classList.add('show');
+        saklambacyazi.classList.add('show');
+        hnsyazi.classList.remove('show');
+        });
+        baglan_hns.addEventListener('click', () => {
+        modal_container.classList.add('show');
+        hnsyazi.classList.add('show');
+        saklambacyazi.classList.remove('show');
+        });
+        no_saklambac.addEventListener('click', () => {
+           modal_container.classList.remove('show');
+           hnsyazi.classList.remove('show');
+           saklambacyazi.classList.remove('show');
+        });
+        no_hns.addEventListener('click', () => {
+           modal_container.classList.remove('show');
+           hnsyazi.classList.remove('show');
+           saklambacyazi.classList.remove('show');
+        });
+        yes.addEventListener('click', () => {
+           modal_container.classList.remove('show');
+        });
+        window.onclick = function(event) {
+        if (event.target == modal_container) {
+            modal_container.classList.remove('show');
+            hnsyazi.classList.remove('show');
+            saklambacyazi.classList.remove('show');
+        }}
+    </script>
+        <div id="hiza">
+            <div class="cerceve1">
+                <div class="yazi1">
+                    <i class="fas fa-shopping-cart"></i> mağaza
+                </div>
+                <div class="down">
+                  <button class="downbtn">Hns</button>
+                  <div class="down-content">
+                    <a href="/magaza/saklambac/magaza-paketler.html">Saklambac</a>
+                  </div>
+                </div>
+            </div>
+            <div class="cerceve2">
+              <div class="yazi2">
+                <a href="/magaza/hns/" >yetki</a>
+                <a href="/magaza/hns/magaza-kredi.html" >kredi</a>
+                <a href="/magaza/hns/magaza-paketler.html" class="active">paketler</a>
+                <a href="magaza-indirimler.html" >indirimler</a>
+              </div>
+            </div>
+            
+            <div class="satilanlar">
+              <a href="satinal-premiumpaket.html" class="image" id="premiumpaket"></a>
+              <a href="satinal-kapsamlipaket.html" class="image"  id="kapsamlipaket"></a>
+              <a href="satinal-gorkemlipaket.html" class="image"  id="gorkemlipaket"></a>
+              <a href="satinal-unban.html" class="image"  id="unban"></a>
+            </div>
+          </div>
+        <div id="altmenu">
+          <a type="button" id="button1" href="/yardim/kullanimsartlari.html" class="hizmet">
+            Hizmet Kullanım Şartları
+        </a>
+        <a type="button" id="button2" href="/yardim/sozlesme.html" class="sozlesme">
+            Satın Alma Sözleşmesi
+        </a>
+        <a type="button" id="button3" href="/yardim/sss.html" class="sss">
+            Sıkça Sorulan Sorular
+        </a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,869 @@
+.altmenu{
+ margin-top: 1500px; 
+}
+.anayazi{
+    color: #fff;
+    font-family: "torus";
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+.anayazi h1{
+  text-align: center;
+}
+.anayazi p{
+    color: rgba(255, 255, 255, 0.829);
+    line-height: 20px;
+    float: left;
+    padding: 0px 30px;
+}
+.anayazi p1{
+  color: rgba(255, 255, 255, 0.829);
+  line-height: 20px;
+  padding: 20px 0px;
+}
+.kurucu{
+  margin-left: 72%;
+  display: ruby;
+  padding: 10px 0px;
+}
+@media screen and (max-width: 1055px) {
+  .kurucu{
+    margin-left: 30%;
+  }
+  .service{
+    width: calc(50% / 3);
+    margin-left: 15%;
+  }
+}
+.baslik{
+color: gold;
+font-family: "torus";
+text-align: center;
+}
+
+.baslik h2{
+  padding: 0px 50px;
+}
+
+.tanitim {
+  padding: 5px 30px;
+  font-size: 70%;
+  margin-left: 100px;
+}
+.tanitim h1{
+  color: white;
+}
+.tanitim p3{
+  color: gold;
+}
+.tanitim p4{
+  color: grey;
+}
+.madde{
+list-style-type: circle;
+margin-left: 15%;
+margin-bottom: 1%;
+width: 80%;
+font-family: "torus";
+display: flex;
+color: rgba(255, 255, 255, 0.822);
+}
+#logo{
+  color: #0ab2f5;
+}
+.service{
+    color: #fff;
+    font-family: "Torus";
+    text-align: center;
+    display: inline-block;
+    padding: 0px 50px;
+    width: calc(90% / 3);
+    margin-left: 5%;
+}
+.service p{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.foto{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  image-rendering: auto;
+  box-shadow: 0 4px 16px rgb(0, 0, 0);
+}
+.cen{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.aciklamayazisi p{
+  float: right;
+  text-align: center;
+  margin-top: -300px;
+  margin-right: 100px;
+  width: 50%;
+  color: rgb(175, 175, 175);
+}
+.birinci h1{
+  float: right;
+  margin-top: -370px;
+  margin-right: 250px;
+  color: aliceblue;
+}
+.ikinci h1{
+  float: right;
+  margin-top: -370px;
+  margin-right: 90px;
+  color: aliceblue;
+}
+.ucuncu h1{
+  float: right;
+  margin-top: -370px;
+  margin-right: 175px;
+  color: aliceblue;
+}
+.dorduncu h1{
+  float: right;
+  margin-top: -370px;
+  margin-right: 65px;
+  color: aliceblue;
+}
+
+.medusupporterprotanit{
+  margin: 10px;
+  padding: 10px;
+  width: 350px;
+  height: 450px;
+  margin-left: 13.5%;
+  box-shadow: 0 4px 16px rgb(0, 0, 0);
+}
+.medusupportertanit{
+  margin: 10px;
+  padding: 10px;
+  width: 350px;
+  height: 450px;
+  margin-top: -480px;
+  margin-left: 70%;
+  box-shadow: 0 4px 16px rgb(0, 0, 0);
+}
+.iknaoldum{
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  margin-left: 40%;
+  box-shadow: 0 4px 16px rgb(0, 0, 0);
+  margin-bottom: 50px;
+}
+.iknaoldum h1{
+  margin-top: 130px;
+  color: aliceblue;
+  text-align: center;
+}
+.iknaoldum p{
+  color: grey;
+  text-align: center;
+}
+.fiyat{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  float: right;
+  margin-top: -80px;
+  margin-right: 100px;
+  text-decoration: none;
+  display: inline-block;
+  user-select: none;
+  box-shadow: 0 4px 12px #4CAF50;
+  font-size: 14px;
+}
+.fiyatpro{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  margin-top: 10px;
+  float: right;
+  margin-right: 100px;
+  text-decoration: none;
+  user-select: none;
+  display: inline-block;
+  box-shadow: 0 4px 12px #4CAF50;
+  font-size: 14px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  margin-top: 50px;
+  float: right;
+  margin-right: 135px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.birinci .aciklamayazisi h1{
+  margin-right: 300px;
+}
+.ikinci .aciklamayazisi h1{
+  margin-right: 130px;
+}
+.ucuncu .aciklamayazisi h1{
+  margin-right: 200px;
+}
+.dorduncu .aciklamayazisi h1{
+  margin-right: 115px;
+}
+@media screen and (max-width: 1166px){
+  .ikinci .aciklamayazisi h1{
+    margin-right: 100px;
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-right: 90px;
+  }
+}
+@media screen and (max-width: 1926px){
+  .medusupporterprotanit{
+    margin-left: 17%;
+  }
+  .medusupportertanit{
+    margin-left: 63.5%;
+  }
+  .iknaoldum{
+    margin-left: 39%;
+  }
+}
+@media screen and (max-width: 1760px){
+  .medusupporterprotanit{
+    margin-left: 10%;
+  }
+  .medusupportertanit{
+    margin-left: 70%;
+  }
+  .iknaoldum{
+    margin-left: 38%;
+  }
+}
+@media screen and (max-width: 1512px){
+  .medusupporterprotanit{
+    margin-left: 5%;
+  }
+  .medusupportertanit{
+    margin-left: 68%;
+  }
+  .iknaoldum{
+    margin-left: 35.5%;
+  }
+}
+@media screen and (max-width: 1396px){
+  .medusupporterprotanit{
+    margin-left: 12%;
+  }
+  .medusupportertanit{
+    margin-left: 59%;
+  }
+  .iknaoldum{
+    margin-left: 34%;
+  }
+}
+@media screen and (max-width: 1240px){
+  .medusupporterprotanit{
+    margin-left: 8%;
+  }
+  .iknaoldum{
+    margin-left: 32%;
+  }
+}
+@media screen and (max-width: 946px){
+  .medusupporterprotanit{
+    margin-left: 30%;
+  }
+  .medusupportertanit{
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 30%;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+  }
+  .iknaoldum{
+    margin-left: 27.5%;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+  }
+  .fiyat{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 589px){
+  .medusupporterprotanit{
+    margin-left: 15%;
+  }
+  .medusupportertanit{
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 15%;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+  }
+  .iknaoldum{
+    margin-left: 11.5%;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+  }
+  .fiyat{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .tanitim{
+    margin-left: 10px;
+  }
+  .foto{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: -20%;
+  }
+  .aciklamayazisi{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 1075px){
+  #logo{
+    padding: 0px 0px;
+  }
+  .service{
+    text-align: left;
+    width: calc(150% / 3);
+    margin: 0 -2px;
+    margin-bottom: 1%;
+    margin-left: 5%;
+  }
+  .service h2{
+    text-align: left;
+    width: 120%;
+    margin-top: -40px;
+    margin-left: 70px;
+  }
+  .service p{
+    text-align: left;
+    width: 120%;
+    margin-top: 0px;
+    margin-left: 70px;
+  }
+  .cen{
+    padding: 0px;
+  }
+  .foto{
+    margin-left: -15%;
+  }
+}
+@media screen and (max-width: 1073px){
+  .medusupporterprotanit{
+    margin-left: 30%;
+  }
+  .medusupportertanit{
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 30%;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+  }
+  .iknaoldum{
+    margin-left: 27.5%;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+  }
+  .fiyat{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 1060px){
+  .foto{
+    width: 450px;
+    height: 400px;
+    margin-left: 100%;
+  }
+  .aciklamayazisi{
+    margin-top: 60%;
+    margin-right: -10%;
+  }
+  .birinci{
+    width: 400px;
+  }
+  .birinci .aciklamayazisi h1{
+    margin-top: -40%;
+    margin-right: -190px;
+  }
+  .birinci .aciklamayazisi p{
+    font-size: 18px;
+    margin-top: -30%;
+    margin-right: -285px; 
+    width: 100%;
+  }
+  .ikinci{
+    width: 400px;
+  }
+  .ikinci .aciklamayazisi h1{
+    margin-top: -40%;
+    margin-right: -330px;
+  }
+  .ikinci .aciklamayazisi p{
+    font-size: 18px;
+    margin-top: -30%;
+    margin-right: -285px; 
+    width: 100%;
+  }
+  .ucuncu{
+    width: 400px;
+  }
+  .ucuncu .aciklamayazisi h1{
+    margin-top: -40%;
+    margin-right: -240px;
+  }
+  .ucuncu .aciklamayazisi p{
+    font-size: 18px;
+    margin-top: -30%;
+    margin-right: -285px; 
+    width: 100%; 
+  }
+  .dorduncu{
+    width: 400px;
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-top: -40%;
+    margin-right: -350px;
+  }
+  .dorduncu .aciklamayazisi p{
+    font-size: 18px;
+    margin-top: -30%;
+    margin-right: -285px; 
+    width: 100%;
+  }
+}
+@media screen and (max-width: 911px){
+  .foto{
+    margin-left: 70%;
+  }
+  .birinci .aciklamayazisi h1{
+    margin-right: -120px;
+  }
+  .birinci .aciklamayazisi p{
+    margin-right: -230px; 
+  }
+  .ikinci{
+    width: 400px;
+  }
+  .ikinci .aciklamayazisi h1{
+    margin-top: -40%;
+    margin-right: -280px;
+  }
+  .ikinci .aciklamayazisi p{
+    font-size: 18px;
+    margin-top: -30%;
+    margin-right: -230px; 
+    width: 100%;
+  }
+  .ucuncu{
+    width: 400px;
+  }
+  .ucuncu .aciklamayazisi h1{
+    margin-top: -40%;
+    margin-right: -187px;
+  }
+  .ucuncu .aciklamayazisi p{
+    font-size: 18px;
+    margin-top: -30%;
+    margin-right: -230px; 
+    width: 100%; 
+  }
+  .dorduncu{
+    width: 400px;
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-top: -40%;
+    margin-right: -285px;
+  }
+  .dorduncu .aciklamayazisi p{
+    font-size: 18px;
+    margin-top: -30%;
+    margin-right: -230px; 
+    width: 100%;
+  }
+}
+@media screen and (max-width: 807px){
+  .foto{
+    margin-left: 30%;
+  }
+  .birinci .aciklamayazisi h1{
+    margin-right: -30px;
+  }
+  .birinci .aciklamayazisi p{
+    margin-right: -150px; 
+  }
+  .ikinci .aciklamayazisi h1{
+    margin-right: -200px;
+  }
+  .ikinci .aciklamayazisi p{
+    margin-right: -150px; 
+  }
+  .ucuncu .aciklamayazisi h1{
+    margin-right: -100px;
+  }
+  .ucuncu .aciklamayazisi p{
+    margin-right: -150px; 
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-right: -200px;
+  }
+  .dorduncu .aciklamayazisi p{
+    margin-right: -150px; 
+  }
+}
+@media screen and (max-width: 683px){
+  .foto{
+    margin-left: 0%;
+  }
+  .birinci .aciklamayazisi h1{
+    margin-right: 25px;
+  }
+  .birinci .aciklamayazisi p{
+    margin-right: -90px; 
+  }
+  .ikinci .aciklamayazisi h1{
+    margin-right: -135px;
+  }
+  .ikinci .aciklamayazisi p{
+    margin-right: -85px; 
+  }
+  .ucuncu .aciklamayazisi h1{
+    margin-right: -33px;
+  }
+  .ucuncu .aciklamayazisi p{
+    margin-right: -80px; 
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-right: -150px;
+  }
+  .dorduncu .aciklamayazisi p{
+    margin-right: -85px; 
+  }
+  .medusupporterprotanit{
+    margin-left: 18%;
+  }
+  .medusupportertanit{
+    margin-left: 18%;
+  }
+  .iknaoldum{
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 600px){
+  .foto{
+    width: 250px;
+    height: 300px;
+    margin-left: 30%;
+  }
+  .aciklamayazisi{
+    margin-top: 50%;
+    font-size: 13px;
+  }
+  .birinci .aciklamayazisi h1{
+    margin-right: 90px;
+  }
+  .birinci .aciklamayazisi p{
+    margin-right: -50px; 
+  }
+  .ikinci .aciklamayazisi h1{
+    margin-right: -35px;
+  }
+  .ikinci .aciklamayazisi p{
+    margin-right: -40px; 
+  }
+  .ucuncu .aciklamayazisi h1{
+    margin-right: 28px;
+  }
+  .ucuncu .aciklamayazisi p{
+    margin-right: -50px; 
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-right: -50px;
+  }
+  .dorduncu .aciklamayazisi p{
+    margin-right: -40px; 
+  }
+  .medusupporterprotanit{
+    margin-left: 18%;
+  }
+  .medusupportertanit{
+    margin-left: 18%;
+  }
+  .iknaoldum{
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 516px){
+  .foto{
+    width: 250px;
+    height: 300px;
+    margin-left: 10%;
+  }
+  .aciklamayazisi{
+    margin-top: 50%;
+    font-size: 10px;
+  }
+  .birinci .aciklamayazisi h1{
+    margin-right: 150px;
+  }
+  .birinci .aciklamayazisi p{
+    margin-right: 115px;
+    width: 200px; 
+    font-size: 16px;
+  }
+  .ikinci .aciklamayazisi h1{
+    margin-right: 50px;
+  }
+  .ikinci .aciklamayazisi p{
+    margin-right: 90px;
+    width: 250px; 
+    font-size: 16px;
+  }
+  .ucuncu .aciklamayazisi h1{
+    margin-right: 110px;
+  }
+  .ucuncu .aciklamayazisi p{
+    margin-right: 90px;
+    width: 250px; 
+    font-size: 16px;
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-right: 40px;
+  }
+  .dorduncu .aciklamayazisi p{
+    margin-right: 90px;
+    width: 250px; 
+    font-size: 16px;
+  }
+  .medusupporterprotanit{
+    margin-left: 10%;
+  }
+  .medusupportertanit{
+    margin-left: 10%;
+  }
+  .iknaoldum{
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+  }
+  .button {
+    margin-right: 90px;
+  }
+  .medusupporterprotanit{
+    margin-left: 10%;
+    width: 300px;
+  }
+  .medusupporterprotanit h1{
+    font-size: 25px;
+  }
+  .medusupportertanit{
+    margin-left: 10%;
+    width: 300px;
+  }
+  .fiyatpro{
+    margin-top: 10px;
+    margin-right: 80px;
+  }
+  .fiyat{
+    margin-top: 80px;
+    margin-right: 80px;
+  }
+}
+@media screen and (max-width: 403px){
+  .anayazi{
+    padding: 10px 5px;
+  }
+  .anayazi p{
+    margin-left: -15px;
+  }
+  .service{
+    margin-left: -5%;
+  }
+  .aciklamayazisi{
+    margin-top: 45%;
+  }
+  .aciklamayazisi h1{
+    font-size: 18px;
+  }
+  .aciklamayazisi p{
+    font-size: 14px;
+  }
+  .foto{
+    width: 250px;
+    height: 300px;
+    margin-left: 12%;
+  }
+  .birinci .aciklamayazisi h1{
+    margin-right: 190px;
+  }
+  .birinci .aciklamayazisi p{
+    margin-right: 150px;
+    width: 200px; 
+  }
+  .ikinci .aciklamayazisi h1{
+    margin-right: 98px;
+  }
+  .ikinci .aciklamayazisi p{
+    margin-right: 125px;
+    width: 250px; 
+  }
+  .ucuncu .aciklamayazisi h1{
+    margin-right: 150px;
+  }
+  .ucuncu .aciklamayazisi p{
+    margin-right: 125px;
+    width: 250px; 
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-right: 90px;
+  }
+  .dorduncu .aciklamayazisi p{
+    margin-right: 130px;
+    width: 250px; 
+  }
+  .iknaoldum{
+    width: 200px;
+    height: 300px;
+    margin-left: 20%;
+  }
+  .button {
+    margin-right: 45px;
+  }
+  .medusupporterprotanit{
+    margin-left: 15%;
+    width: 250px;
+    height: 480px;
+  }
+  .medusupporterprotanit h1{
+    font-size: 25px;
+  }
+  .medusupportertanit{
+    margin-left: 15%;
+    width: 250px;
+  }
+  .fiyatpro{
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .fiyat{
+    margin-top: 80px;
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 360px){
+  .foto{
+    width: 250px;
+    height: 300px;
+    margin-left: 0%;
+  }
+  .aciklamayazisi h1{
+    font-size: 17px;
+  }
+  .birinci .aciklamayazisi h1{
+    margin-right: 220px;
+  }
+  .birinci .aciklamayazisi p{
+    margin-right: 180px;
+    width: 200px; 
+  }
+  .ikinci .aciklamayazisi h1{
+    margin-right: 128px;
+  }
+  .ikinci .aciklamayazisi p{
+    margin-right: 145px;
+    width: 250px; 
+  }
+  .ucuncu .aciklamayazisi h1{
+    margin-right: 180px;
+  }
+  .ucuncu .aciklamayazisi p{
+    margin-right: 155px;
+    width: 250px; 
+  }
+  .dorduncu .aciklamayazisi h1{
+    margin-right: 125px;
+  }
+  .dorduncu .aciklamayazisi p{
+    margin-right: 155px;
+    width: 250px; 
+  }
+  .iknaoldum{
+    width: 200px;
+    height: 300px;
+    margin-left: 15%;
+  }
+  .button {
+    margin-right: 45px;
+  }
+  .medusupporterprotanit{
+    margin-left: 7%;
+    width: 250px;
+  }
+  .medusupporterprotanit h1{
+    font-size: 25px;
+  }
+  .medusupportertanit{
+    margin-left: 7%;
+    width: 250px;
+  }
+  .fiyatpro{
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .fiyat{
+    margin-top: 80px;
+    margin-right: 50px;
+  }
+}
+p4{
+  color: #5390d9;
+}
+.medusupporterprotanit h1{
+  color: white;
+  margin-bottom: 50px;
+}
+.medusupporterprotanit p3{
+  color: gold;
+}
+.medusupporterprotanit li{
+  color: aliceblue;
+}
+.medusupporterprotanit p{
+  color: rgb(175, 175, 175);
+}
+.medusupportertanit h1{
+  color: white;
+  margin-bottom: 50px;
+}
+.medusupportertanit p3{
+  color: gold;
+}
+.medusupportertanit li{
+  color: aliceblue;
+}
+.medusupportertanit p{
+  color: rgb(175, 175, 175);
+}
+.medusupportertanit p4{
+  color: grey;
+}

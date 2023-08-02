@@ -1,0 +1,65 @@
+#altmenu{
+    top: 400px;
+}
+.anayazi{
+    color: #fff;
+    font-family: "torus";
+    text-align: center;
+    margin-top: 200px;
+}
+.anayazi p{
+color: rgba(255, 255, 255, 0.904);
+margin-bottom: 5%;
+}
+.baslik{
+color: #fff;
+font-family: "torus";
+font-size: 130%;
+margin-left: 7%;
+margin-top: 4%;
+margin-bottom: 1%;
+}
+.aciklama{
+margin-left: 10%;
+margin-bottom: 1%;
+width: 80%;
+font-family: "torus";
+display: flex;
+color: rgba(255, 255, 255, 0.74);
+}
+.madde{
+list-style-type: circle;
+margin-left: 15%;
+margin-bottom: 1%;
+width: 80%;
+font-family: "torus";
+display: flex;
+color: rgba(255, 255, 255, 0.822);
+}
+@media screen and (max-width: 1055px) {
+    .anayazi h1{
+        margin-left: 3%;
+        text-align: left;
+    }
+    .anayazi p{
+        text-align: left;
+        margin-left: 3%;
+        line-height: 25px;
+        margin-bottom: 100px;
+        width: 70%;
+    }
+    .baslik{
+        color: #fff;
+        font-family: "torus";
+        text-align: left;
+        margin-left: 2%;
+    }
+    .madde{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .aciklama{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+}

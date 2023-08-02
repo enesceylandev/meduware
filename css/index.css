@@ -1,0 +1,332 @@
+#altmenu{
+    top: 420px;
+}
+@keyframes logolar1{
+    0%{
+        transform: translateY(1%)
+    }
+    50%{
+        transform: translateY(20%)
+    }
+    100%{
+        transform: translateY(1%)
+    }
+}
+
+.anasayfa-yazisi{
+    color: #fff;
+    font-family: "torus";
+    text-align: center;
+    margin-top: 120px;
+}
+.anasayfa-yazisi h1{
+    padding: 0px 5px;
+}
+.anasayfa-yazisi p{
+    color: rgba(255, 255, 255, 0.699);
+    font-family: "torus";
+    text-align: center;
+    height: 10%;
+    font-size: 100%;
+    line-height: 20px;
+    width: 55%;
+    padding: 0px 5px;
+    margin-left: 21.5%;
+}
+.icerikyazisi{
+    color: #fff;
+    font-family: "torus";
+    font-size: 13px;
+    padding: 0px 20px;
+    margin-top: 140px;
+    margin-right: 1030px;
+}
+.frigle-logo{
+    padding: 7px;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    margin-left: 0%;
+    animation-name: logolar1;
+    animation-duration: 9s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    margin-bottom: 10%;
+    border-radius: 100%;
+    box-sizing: border-box;
+    cursor:pointer;
+    z-index: 1;
+}
+.frigle-profil{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5%;
+    margin-top: -10%;
+    margin-left: 0px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.frigle-cerceve{
+    -webkit-animation-duration: 0.3s;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    font-family: "Torus";
+    position: flex;
+    margin-top: 400px;
+    margin-bottom: -130px;
+    margin-left: 2%;
+    left: 0;
+    height: 20px;
+    width: 20%;
+    z-index: 3;
+}
+.fa-youtube{
+    color: rgba(255, 0, 0, 0.829);
+}
+.frigle-yazi{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-animation-duration: 0.3s;
+    background-color: #fff;
+    max-width: 100%;
+    color: rgba(53, 53, 53, 0.836);
+    border-radius: 7px;
+    text-align: center;
+}
+.logolar{
+    display: block;
+    opacity: 1;
+}
+#indir{
+    display: block;
+    opacity: 1;
+    margin-left: 0;
+}
+#indir-mobil{
+    display: none;
+    margin-left: 0%;
+    opacity: 0;
+}
+.logolar-mobil{
+    display: none;
+    opacity: 0;
+}
+.baslik{
+    color: rgb(255, 196, 0);
+    font-family: "torus";
+    font-size: 70%;
+    text-align: center;
+    margin-top: 300px;
+}
+@media screen and (max-width: 1055px) {
+    .anasayfa-yazisi h1{
+        margin-left: 3%;
+        text-align: left;
+    }
+    .anasayfa-yazisi p{
+        text-align: left;
+        margin-left: 3%;
+        line-height: 25px;
+        width: 70%;
+    }
+    #indir{
+        display: none;
+        opacity: 0;
+    }
+    #indir-mobil{
+        display: block;
+        margin-left: 5%;
+        opacity: 1;
+    }
+    .logolar-mobil{
+        display: block;
+        margin-left: -50px;
+        opacity: 1;
+    }
+    .logolar{
+        display: none;
+        opacity: 0;
+    }
+    .cerceveler{
+        pointer-events: none;
+        opacity: 0;
+    }
+    .icerikyazisi{
+        color: #fff;
+        font-size: 14px;
+        margin-left: 15%; 
+        margin-right: 40%;
+        width: 70%;
+    }
+    .videolar{
+        pointer-events: none;
+        display: none;
+        opacity: 0;
+    }
+    .toplar{
+        pointer-events: none;
+        display: none;
+        opacity: 0;
+    }
+}
+#frigle_video1{
+    -webkit-animation-duration: 0.3s;
+    pointer-events: none;
+    display: none;
+    opacity: 0;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    left: 0;
+    z-index: 3;
+}
+#frigle_video1.show{
+    transition: all 0.2s ease;
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+#frigle_video2{
+    -webkit-animation-duration: 0.3s;
+    pointer-events: none;
+    display: none;
+    opacity: 0;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    left: 0;
+    z-index: 3;
+}
+#frigle_video2.show{
+    transition: all 0.2s ease;
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+#frigle_video3{
+    -webkit-animation-duration: 0.3s;
+    pointer-events: none;
+    display: none;
+    opacity: 0;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    left: 0;
+    z-index: 3;
+}
+#frigle_video3.show{
+    transition: all 0.2s ease;
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+.frigle-top{
+    -webkit-animation-duration: 0.3s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    pointer-events: none;
+    display: none;
+    position: relative;
+    list-style: none;
+    opacity: 0;
+    margin-left: 0%;
+    z-index: 3;
+}
+@media screen and (max-width: 2310px) {
+    #indir{
+     
+        margin-left: 46%;
+    }
+}
+@media screen and (max-width: 1777px) {
+    #indir{
+     
+        margin-left: 44%;
+    }
+}
+@media screen and (max-width: 1447px) {
+    #indir{
+     
+        margin-left: 42.5%;
+    }
+}
+@media screen and (max-width: 1900px) {
+    .frigle-top{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 1487px) {
+    .frigle-top{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .frigle-top{
+        margin-left: 15%;
+    }
+}
+.frigle-cerceve.show{
+    display: flex;
+    transition: all 0.2s ease;
+    opacity: 1;
+    pointer-events: auto;
+}
+.frigle-top.show{
+    transition: all 0.2s ease;
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+.frigle-yazi h1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5%;
+    top: -10%;
+}
+#top1{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+    color: #fff;
+    text-decoration:none;
+    border: 10px solid transparent;
+    z-index: 2;
+}
+#top2{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    text-decoration:none;
+    border: 10px solid transparent;
+    z-index: 2;
+}
+#top3{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    text-decoration:none;
+    border: 10px solid transparent;
+    z-index: 2;
+}

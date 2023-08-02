@@ -1,0 +1,191 @@
+.altyazi{
+    color: #fff;
+    font-family: "torus";
+    text-align: center;
+    margin-top: 200px;
+}
+.anayazi h1{
+  color: #fff;
+  font-family: "torus";
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 0%;
+}
+.anayazi p{
+    color: rgba(255, 255, 255, 0.829);
+    margin-bottom: 40px;
+    text-align: center;
+    margin-left: 0%;
+    line-height: 0px;
+    width: 100%;
+    }
+.altyazi p{
+color: rgba(255, 255, 255, 0.829);
+margin-bottom: 5%;
+}
+.baslik{
+color: rgb(255, 196, 0);
+font-family: "torus";
+font-size: 70%;
+text-align: center;
+margin-top: 100px;
+}
+.madde{
+list-style-type: circle;
+margin-left: 15%;
+margin-bottom: 1%;
+width: 80%;
+font-family: "torus";
+display: flex;
+color: rgba(255, 255, 255, 0.822);
+}
+
+#basvur{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+            cursor:pointer;
+    margin-left: 44%;
+    display: grid;
+    width: 150px;
+    color: rgba(38, 49, 58, 0.856);
+    background-color: #fff;
+    text-decoration:none;
+    text-align: center;
+    font-family: "torus";
+    border: 14px solid transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    z-index: 2;
+}
+#basvur:hover{
+    color: rgb(35, 39, 42);
+}
+
+.service{
+    color: #fff;
+    font-family: "Torus";
+    text-align: left;
+    display: inline-block;
+    width: calc(80% / 3);
+    margin: 0 -2px;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+.service p{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.685);
+}
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+#logo{
+    color: #0ab2f5;
+}
+.accordion-item:target .answer{
+    max-height: 20rem;
+}
+.accordion-item:target .accordion-link .ion-md-add{
+    display: none;
+}
+.accordion-item:target .accordion-link .ion-md-remove{
+    display: block;
+} 
+  .accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+  .accordion-item {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    color: rgb(255, 255, 255);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    border: 3px solid rgb(105, 105, 105);
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }
+  .accordion-item-body {
+    max-height: 0;
+    color: rgba(255, 255, 255, 0.705);
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #d69406, transparent) 1;
+  }
+  
+  @media screen and (max-width: 1055px) {
+  .anayazi h1{
+      margin-left: 3%;
+      text-align: left;
+  }
+  .anayazi p{
+      text-align: left;
+      margin-left: 3%;
+      line-height: 25px;
+      width: 70%;
+  }
+  #basvur{
+        margin-left: 3%;
+  }
+  #logo{
+    padding: 0px 0px;
+  }
+  .service{
+    text-align: left;
+    width: calc(150% / 3);
+    margin: 0 -2px;
+    margin-bottom: 1%;
+    margin-left: 5%;
+  }
+  .service h2{
+    text-align: left;
+    width: 120%;
+    margin-top: -40px;
+    margin-left: 70px;
+  }
+  .service p{
+    text-align: left;
+    width: 120%;
+    margin-top: 0px;
+    margin-left: 70px;
+  }
+  .cen{
+    padding: 0px;
+  }
+  .altyazi{
+    margin-top: 50px;
+}
+}

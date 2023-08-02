@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hizmet Kullanım Şartları | Meduware Clan</title>
+        <link rel="shortcut icon" href="/meduwarewebsitedata/sekmelogosu.png" type="image/x-icon" >
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" href="/css/kullanimsartlari.css">
+        <link rel="stylesheet" href="/css/ortak.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Meduware görebileceğiniz en kaliteli oyun deneyimi!! Eklentileri ve yetkili kadromuz ile hep en iyisini hedefliyoruz!">
+        <meta name="keywords" content="meduware, saklambac, jb, jailbreak, surf, awp, kaliteli, kalite, en iyi, iyi, sunucu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <div class="topnav" id="myTopnav">
+        <a href="/" class="logo"></a>
+      <a href="/" id="renkli" class="yazilar">ana sayfa</a>
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli">sunucularımız
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" id="baglan_saklambac">saklambac</a>
+          <a href="#" id="baglan_hns">hns</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli" class="yazilar">sıralama
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://cs.center/server/45.10.56.56/27015" target="_blank">saklambac</a>
+    
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli" class="yazilar">topluluk
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">yasaklamalar(bakımda)</a>
+          <a href="/topluluk/icerikuretisi.html">içerik üreticileri</a>
+          <a href="https://discord.gg/wbJRVpA" target="_blank">discord sunucumuz</a>
+          <a href="https://steamcommunity.com/groups/meduware" target="_blank">steam grubumuz</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="active" class="yazilar">yardım
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/yardim/oynanis.html">nasıl oynanır?</a>
+          <a href="/yardim/sss.html">sıkça sorulan sorular</a>
+          <a href="/yardim/kurallar.html">kurallar</a>
+          <a href="/yardim/">hayır, gerçekten yardıma ihtiyacım var!</a>
+        </div>
+      </div> 
+      <a href="/magaza/" id="renkli" class="yazilar">mağaza</a>
+      <a href="https://steamcommunity.com/id/medusacollins" target="_blank" id="renkli" class="yazilar">iletişim</a>
+        <div class="sagcerceve">
+            <a href="https://discord.gg/wbJRVpA" target="_blank" ><i class="fab fa-discord"></i></a>
+            <a href="/medusupporter/"><i class="fas fa-heart"></i></a>
+        </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" id="mobilbutton" onclick="myFunction()">&#9776;</a>
+    </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+        <div class="modal-container" id ="modal_container">
+          <div class="modal-text" id ="saklambacyazi">
+            <h1>Biraz sakinleşelim (o´･_･)っ </h1>
+            <p>
+                Bu yaptığın işlem direkt olarak sunucuya bağlanmanı sağlar. Bunu istediğine emin misin?
+            </p>
+            <button2 id="no_saklambac">
+                hayır
+            </button2>
+
+            <a type="button2" id="yes" href="steam://connect/45.10.56.56:27015" target="_blank" class= "button3">
+                evet kesinlikle!
+            </a>
+        </div>
+        <div class="modal-text" id ="hnsyazi">
+          <h1>Biraz sakinleşelim (o´･_･)っ </h1>
+          <p>
+              Bu yaptığın işlem direkt olarak sunucuya bağlanmanı sağlar. Bunu istediğine emin misin?
+          </p>
+          <button2 id="no_hns">
+              hayır
+          </button2>
+
+          <a type="button2" id="yes" href="steam://connect/185.243.182.38" target="_blank" class= "button3">
+              evet kesinlikle!
+          </a>
+      </div>
+    </div>
+    <script>
+      var baglan_saklambac =document.getElementById('baglan_saklambac');
+      var baglan_hns =document.getElementById('baglan_hns');
+      var saklambacyazi =document.getElementById('saklambacyazi');
+      var hnsyazi =document.getElementById('hnsyazi');
+      var modal_container =document.getElementById('modal_container');
+      var no_saklambac =document.getElementById('no_saklambac');
+      var no_hns =document.getElementById('no_hns');
+      var yes =document.getElementById('yes');
+  
+      baglan_saklambac.addEventListener('click', () => {
+      modal_container.classList.add('show');
+      saklambacyazi.classList.add('show');
+      hnsyazi.classList.remove('show');
+      });
+      baglan_hns.addEventListener('click', () => {
+      modal_container.classList.add('show');
+      hnsyazi.classList.add('show');
+      saklambacyazi.classList.remove('show');
+      });
+      no_saklambac.addEventListener('click', () => {
+         modal_container.classList.remove('show');
+         hnsyazi.classList.remove('show');
+         saklambacyazi.classList.remove('show');
+      });
+      no_hns.addEventListener('click', () => {
+         modal_container.classList.remove('show');
+         hnsyazi.classList.remove('show');
+         saklambacyazi.classList.remove('show');
+      });
+      yes.addEventListener('click', () => {
+         modal_container.classList.remove('show');
+      });
+      window.onclick = function(event) {
+      if (event.target == modal_container) {
+          modal_container.classList.remove('show');
+          hnsyazi.classList.remove('show');
+          saklambacyazi.classList.remove('show');
+      }}
+  </script>
+        <div class="anayazi">
+                <h1>Hizmet Kullanım Şartları</h1>
+                <p></p>
+        </div>
+          <div class="baslik">
+              <h1>Meduware kullanım Şartları</h1>
+          </div>
+            <div class="b1">
+              Bu site tarafından sunulan hizmetleri veya herhangi bir verdiği hizmet
+              (bundan böyle " Meduware " olarak anılacaktır), burada listelenen hüküm ve koşullara tam olarak uyduğunuzu kabul ediyorsunuz.
+            </div>
+            <div class="b1">
+              Bu web sitesini kullanmanızın bir koşulu olarak,
+              bu web sitesini veya bu web sitesinden elde edilen herhangi bir içeriği,
+              yasalara aykırı veya bu hükümlerle yasaklanmış herhangi bir amaçla kullanmayacağınızı garanti ediyorsunuz.
+            </div>
+            <div class="b1">
+              Bu Kullanım Koşullarından herhangi birini ihlal ederseniz, web sitesini kullanma izniniz otomatik olarak sona erer.
+            </div>
+        <div class="baslik">
+            <h1>HİZMET TANIMI</h1>
+        </div>
+            <div class="b2">
+              Meduware verdiği hizmetler ile birlikte son kullanıcılara ücretsiz çevrimiçi oyun hizmetleri sağlar.
+            </div>
+            <div class="b2">
+              Meduware yönetimi, kullanıcı tarafından yüklenen herhangi bir içeriğin ve bilginin doğru,
+              güncel veya önemli kalitede olup olmadığı konusunda hiçbir garanti vermez.
+            </div>
+            <div class="b2">
+              Sakıncalı içeriğin yüklenip yüklenmediğine ilişkin hiçbir sorumluluk kabul etmiyoruz.
+              Kullanıcıların yüklenen içeriği dağıtma haklarına sahip olup olmadığı konusunda hiçbir sorumluluk kabul etmiyoruz.
+            </div>
+        <div class="baslik">
+          <h1>HİZMET ŞARTLARINDA DEĞİŞİKLİKLER</h1>
+        </div>
+            <div class="b2">
+              Meduware zaman zaman Hizmet Şartları'nın hüküm ve koşullarını değiştirebilir.
+            </div>
+            <div class="b1">
+              Değiştirilmiş Hizmet şartlarına'ye uymamanız, Meduware'nizin feshine neden olabilir!
+            </div>
+            <div class="b2">
+              Kullanıcının Hizmeti kullanmaya devam etmesi şunlardan oluşur: 
+              (1) Kullanıcı tarafından hizmet şartları'nın ve değişikliklerinin kabulü; ve 
+              (2) Kullanıcı tarafından Kullanım Şartları'na ve değişikliklerine uyma ve bunlara bağlı kalma anlaşması.
+            </div>
+          <div class="baslik">
+            <h1>HİZMETTE DEĞİŞİKLİKLER</h1>
+          </div>
+            <div class="b2">
+              Meduware Kullanıcıya bildirimde bulunarak veya bulunmaksızın Hizmeti değiştirme veya durdurma hakkını saklı tutar.
+            </div>
+            <div class="b2">
+              Meduware Kullanıcıya veya herhangi bir üçüncü şahsa karşı sorumlu değildir! Hizmeti değiştirme veya durdurma hakkını kullanmak.
+            </div>
+          <div class="baslik">
+            <h1>GARANTİLERİN REDDİ</h1>
+          </div>
+            <div class="b2">
+              KULLANICI, HİZMETİN KULLANILMASININ YALNIZCA RİSKİNDE OLDUĞUNU AÇIKÇA KABUL ETMEKTEDİR.
+              HİZMET "OLDUĞU GİBİ" VE "MEVCUT OLDUĞU KADAR" ESASINA GÖRE SAĞLANIR.
+              Meduware'nin HİZMETLERİNİN KULLANIMININ RİSKİN SADECE SİZE AİT OLDUĞUNU, HERHANGİ BİR MATERYAL VE /
+               VEYA VERİ İNDİRİLDİĞİ YA DA BAŞKA BİR ŞEKİLDE Meduware'NİN HİZMETLERİNİN KULLANIMIYLA ELDE EDİLECEĞİNİ 
+               ANLIYOR VE AÇIKÇA KABUL EDERSİNİZ VE RİSK SİZE AİTTİR.
+                BİLGİSAYAR SİSTEMİNİZDE VERİLEN HERHANGİ BİR ZARARDAN VEYA BU MALZEMENİN VE /
+               VEYA VERİLERİN İNDİRİLMESİNDEN KAYNAKLANAN VERİ KAYBINDAN YALNIZCA SİZ SORUMLUSUNUZ.
+               SİTELERİMİZDE AÇIKÇA BELİRTİLENLER DIŞINDA, Meduware'nin HERHANGİ BİR TİCARİ ELVERİŞLİLİK,
+                BELİRLİ BİR AMACA UYGUNLUK, İHLAL ETMEME VEYA UNVAN GARANTİSİ DAHİL,
+               SINIRLAMA OLMAKSIZIN HERHANGİ BİR AÇIK VEYA ZIMNİ TÜM GARANTİLERİ REDDEDER VE BUNLARA İLİŞKİN 
+               HERHANGİ BİR GARANTİ VEYA BEYAN OLMAMAKTADIR! Meduware'NİN HİZMETLERİ ARACILIĞIYLA ELDE EDİLEN 
+               HERHANGİ BİR BİLGİNİN DOĞRULUĞU VEYA GÜVENİLİRLİĞİNE İLİŞKİN HİZMETLER, Meduware'NİN HİZMETLERİ 
+               ARACILIĞIYLA SATIN ALINAN YA DA HİZMETLERLE İLGİLİ OLARAK VEYA BU HİZMETLER ARACILIĞIYLA GİRİLEN
+                İŞLEMLERLE İLGİLİ! HİZMETLERİ HERHANGİ BİR KULLANICI İHTİYACINI KARŞILAYACAK, BİR PROBLEM OLMADIĞI
+               SÜRECE(ELEKTRİK, İNTERNET VE TÜREVİ Meduware'NİN ETKİ EDEMEYECEĞİ ŞEYLERİN DIŞINDA)KESİNTİSİZ, ZAMANINDA,
+                GÜVENLİ VEYA HATASIZ OLACAKTIR. Bu web sitesindeki üçüncü şahıs sitelerine bağlantılar yalnızca size
+                 kolaylık sağlamak içindir. Meduware kullanıcıları Meduware'nin hizmet şartlarını kabul ediyor! Meduware,
+                  vekilleri, memurları, çalışanları veya iştirakleri aleyhine ileri sürülen avukat ücretleri dahil
+                   olmak üzere sağlanan, gerçekleştirilen herhangi bir hizmetten kaynaklanabilecek veya bunlardan
+                    kaynaklanabilecek her türlü yükümlülük, kayıp, maliyet ve talepten muaf tutulmuştur. Meduware tarafından !.
+              Meduware HİZMETİN GEREKSİNİMLERİNİZİ KARŞILAYACAĞINA VEYA HİZMETİN KESİNTİSİZ, ZAMANINDA, GÜVENLİ
+               VEYA HATASIZ OLACAĞINA DAİR HİÇBİR GARANTİ VERMEZ; YOK Meduware HİZMETİN KULLANIMINDAN VEYA HİZMET ARACILIĞIYLA
+              ELDE EDİLEN BİLGİLERİN DOĞRULUĞU VEYA GÜVENİLİRLİĞİ VEYA YAZILIMDAKİ KUSURLARIN DÜZELTİLECEĞİ SONUÇLARLA İLGİLİ
+             HERHANGİ BİR GARANTİ VERMEZ.
+            </div>
+          <div class="baslik">
+            <h1>SORUMLULUĞUN SINIRLANDIRILMASI</h1>
+          </div>
+            <div class="b1">
+              E-POSTA, AKTARILMIŞ VEYA BAŞKA ŞEKİLDE Meduware ÜZERİNDEN KULLANILABİLİR! GARANTİ, SÖZLEŞME, TORT
+             VEYA BAŞKA HERHANGİ BİR YASAL TEORİYE DAYALI VE ŞİRKETİN BU TÜR ZARARLARIN OLASILIĞINA DAİR TAVSİYE
+              EDİLMESİ VEYA TAVSİYE EDİLMESİ. YUKARIDA BELİRTİLEN SORUMLULUK SINIRLAMASI, ŞARTLAR, GARANTİLER VEYA
+             DİĞER HAKLARIN BU SÖZLEŞMEDE VEYA BAŞKA BİR ŞEKİLDE KANUN TARAFINDAN İFADE EDİLDİĞİ DURUMLARDA,
+              UYGULANABİLİR YARGI BÖLGESİNDEKİ YASALARIN İZİN VERDİĞİ EN GENİŞ ÖLÇÜDE GEÇERLİ OLACAK OLDUĞUNDA,
+             BU ŞARTLAR, GARANTİLER VEYA DİĞER HAKLAR (ANCAK YALNIZCA YASALARIN GEREKTİRDİĞİ ÖLÇÜDE) BU SÖZLEŞME
+              İÇİN GEÇERLİ OLACAKTIR. Meduware SEÇENEĞİNE BAĞLI OLARAK, ZIMNİ KOŞULLARIN VEYA GARANTİLERİN İHLALİ
+             SORUMLULUĞUMUZ, YASALARIN İZİN VERDİĞİ ÖLÇÜDE, İHLAL MALLARLA İLGİLİ İSE, (I) MALLARIN DEĞİŞTİRİLMESİ VEYA
+            EŞDEĞER MALLARIN TEDARİKİ ( II) MALLARIN TAMİRİ, (III) MALLARIN DEĞİŞTİRİLMESİ VEYA EŞDEĞER MALLARIN
+             EDİNİLMESİ MALİYETİNİN ÖDENMESİ VEYA (IV) MALLARIN ONARILMASININ ÖDEMESİ VE İHLAL HİZMETLERLE İLGİLİ İSE,
+            (I) HİZMETLERİN TEKRAR TEDARİK EDİLMESİ; VEYA (II) HİZMETLERİN TEKRAR SAĞLANMASINA SAHİP OLMA MALİYETİNİN
+             ÖDENMESİ.
+            </div>
+            <div class="b1">
+              BUNU ÖZEL OLARAK KABUL EDİYORSUNUZ! HERHANGİ BİR ÜÇÜNCÜ TARAFIN KULLANICI SUNUMLARINDAN VEYA HAKARETLEYİCİ, RAHATSIZ
+             VEYA YASADIŞI DAVRANIŞLARINDAN VE YUKARIDAKİ SONUÇLARDAN KAYNAKLANAN ZARAR VEYA ZARAR RİSKİNDEN SORUMLU OLMAYACAKTIR.
+            </div>
+            <div class="b2">
+              Web sitesi Meduware tarafından kontrol edilmekte ve sunulmaktadır! Çoğunluğu Türkiye'de ki tesislerinden.
+              Meduware Web sitesi başka yerlerde kullanıma uygundur veya kullanılabilir. Meduware'a erişenler veya
+               kullananlar! Diğer yargı alanlarına ait web siteleri bunu kendi iradeleriyle yapar ve yerel yasalara
+              uygunluktan sorumludur.
+            </div>
+          <div class="baslik">
+            <h1>TAZMİNAT</h1>
+          </div>
+            <div class="b2">
+              Ana şirketini, memurlarını, direktörlerini, çalışanlarını ve temsilcilerini her türlü talep, hasar,
+             yükümlülük, kayıp, yükümlülük, maliyet veya borç ve harcamalara karşı savunmayı, tazmin etmeyi ve zararsız
+              tutmayı kabul edersiniz (dahil ancak aşağıdakilerden kaynaklanan avukat ücretleriyle sınırlıdır: (i) Meduware'yi
+             kullanmanız ve Meduware'ye erişiminiz! İnternet sitesi; (ii) bu Hizmet Koşullarının herhangi bir şartını ihlal
+              etmeniz; (iii) herhangi bir telif hakkı, mülkiyet veya gizlilik hakkı dahil ancak bunlarla sınırlı olmamak
+             üzere herhangi bir üçüncü şahıs hakkını ihlal etmeniz; veya (iv) Kullanıcı Gönderilerinizden birinin üçüncü
+              bir tarafa zarar verdiği iddiası. Bu savunma ve tazminat yükümlülüğü, bu Hizmet Şartları'ndan ve Meduware'nin İnternet sitesi.
+            </div>
+          <div class="baslik">
+            <h1>SİTEDE İÇERİK KULLANIMINIZ</h1>
+          </div>
+            <div class="b2">
+              Meduware'yi kullanırken, çeşitli kaynaklardan gelen Kullanıcı Gönderilerine maruz kalacağınızı ve Meduware
+               bu tür Kullanıcı Gönderilerinin doğruluğundan, kullanışlılığından, güvenliğinden veya fikri mülkiyet
+              haklarından sorumlu değildir. Ayrıca, yanlış, saldırgan, uygunsuz veya sakıncalı Kullanıcı Sunumlarına
+               maruz kalabileceğinizi anlar ve kabul edersiniz ve Meduware 'a karşı sahip olduğunuz veya sahip olabileceğiniz
+              her türlü yasal veya eşit hak veya çareden feragat etmeyi kabul eder ve bu vesileyle feragat edersiniz!
+               Siteyi kullanımınızla ilgili tüm konularda yasaların izin verdiği en geniş ölçüde zararsız olmak üzere
+              Sahiplerini / İşletmecilerini, bağlı kuruluşlarını ve / veya lisans verenlerini tazmin etmeyi ve tutmayı
+               kabul eder.
+            </div>
+          <div class="baslik">
+            <h1>İÇERİKLE İLGİLİ MÜLKİYET HAKLARI</h1>
+          </div>
+            <div class="b2">
+              Kullanıcı, Hizmet aracılığıyla Kullanıcıya sağlanan veya Kullanıcı tarafından erişilen sponsor reklam arama
+             sonuçlarında yer alan metin, yazılım, müzik, ses, fotoğraflar, videolar, grafikler, isim referansları veya
+            diğer materyaller dahil ancak bunlarla sınırlı olmamak üzere içeriğin ("İçerik") olduğunu kabul eder. )
+             Meduware, telif hakları, ticari markalar, hizmet markaları, patentler veya diğer mülkiyet hakları ve yasalarla
+            korunmaktadır; bu nedenle, Kullanıcının bu İçeriği yalnızca Hizmet tarafından açıkça izin verildiği şekilde
+             kullanmasına izin verilir. Kullanıcı, Hizmet tarafından açıkça yetkilendirilmedikçe bu İçeriği kopyalayamaz,
+            çoğaltamaz, dağıtamaz veya bunlardan türev çalışmalar oluşturamaz.
+            </div>
+          <div class="baslik">
+            <h1>BAĞLANTILAR</h1>
+          </div>
+            <div class="b2">
+              Meduware veya Kullanıcılar, diğer Web sitelerine veya kaynaklara bağlantılar sağlayabilir.
+              Kullanıcı, Meduware'yi onaylar ve kabul eder! bu tür harici sitelerin veya kaynakların kullanılabilirliğinden
+             sorumlu değildir ve bu tür siteler veya kaynaklarda bulunan veya bunlardan temin edilebilen herhangi bir
+              içerik, reklam, ürün veya diğer materyalleri onaylamaz ve bunlardan sorumlu veya yükümlü değildir.
+              Kullanıcı Meduware'yi kabul eder! bu tür harici sitelerde veya kaynaklarda bulunan bu tür içerik,
+               mal veya hizmetlerin kullanımından veya bunlara güvenilmesinden kaynaklanan veya bunun neden olduğu iddia
+              edilen herhangi bir hasar veya kayıptan doğrudan veya dolaylı olarak sorumlu veya yükümlü olmayacaktır.
+            </div>
+        <div id="altmenu">
+            <a type="button" id="button1" href="/yardim/kullanimsartlari.html" class="hizmet">
+                Hizmet Kullanım Şartları
+            </a>
+            <a type="button" id="button2" href="/yardim/sozlesme.html" class="sozlesme">
+                Satın Alma Sözleşmesi
+            </a>
+            <a type="button" id="button3" href="/yardim/sss.html" class="sss">
+                Sıkça Sorulan Sorular
+            </a>
+        </div>
+    </body>
+</html>

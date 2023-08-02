@@ -1,0 +1,80 @@
+#altmenu{
+    top: 500px;
+}
+.anayazi{
+    color: #fff;
+    font-family: "torus";
+    text-align: center;
+    margin-top: 150px;
+}
+.anayazi p{
+color: rgba(255, 255, 255, 0.829);
+margin-bottom: 5px;
+}
+.baslik{
+color: #fff;
+font-family: "torus";
+font-size: 70%;
+margin-left: 7%;
+}
+.ikiliyazi{
+display: flex;
+font-family: "torus";
+margin-bottom: 10px;
+margin-left: 10%;
+}
+.renkli{
+width: 70%;
+color: #fff;
+margin-right: 5%;
+text-align: left;
+}
+.renksiz{
+margin-left: -51%;
+width: 60%;
+color: rgba(255, 255, 255, 0.548);
+}
+
+.aciklama{
+margin-left: 10%;
+margin-bottom: 20px;
+width: 80%;
+font-family: "torus";
+display: flex;
+color: rgba(255, 255, 255, 0.548);
+}
+.madde{
+list-style-type: circle;
+margin-left: 15%;
+margin-bottom: 10px;
+width: 80%;
+font-family: "torus";
+display: flex;
+color: rgba(255, 255, 255, 0.822);
+}
+@media screen and (max-width: 1055px) {
+    .anayazi h1{
+        margin-left: 3%;
+        text-align: left;
+    }
+    .anayazi p{
+        text-align: left;
+        margin-left: 3%;
+        line-height: 25px;
+        margin-bottom: 100px;
+        width: 70%;
+    }
+    .baslik{
+        color: #fff;
+        font-family: "torus";
+        text-align: left;
+        margin-left: 2%;
+    }
+    .madde{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .aciklama{
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ana sayfa | Meduware Clan</title>
+        <link rel="shortcut icon" href="/meduwarewebsitedata/sekmelogosu.png" type="image/x-icon" >
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/ortak.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Meduware görebileceğiniz en kaliteli oyun deneyimi!! Eklentileri ve yetkili kadromuz ile hep en iyisini hedefliyoruz!">
+        <meta name="keywords" content="meduware, saklambac, jb, jailbreak, surf, awp, kaliteli, kalite, en iyi, iyi, sunucu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <div class="topnav" id="myTopnav">
+        <a href="/" class="logo"></a>
+      <a href="/" id="active" class="yazilar">ana sayfa</a>
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli">sunucularımız
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" id="baglan_saklambac">saklambac</a>
+          <a href="#" id="baglan_hns">hns</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli" class="yazilar">sıralama
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="https://cs.center/server/45.10.56.56/27015" target="_blank">saklambac</a>
+    
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli" class="yazilar">topluluk
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">yasaklamalar(bakımda)</a>
+          <a href="/topluluk/icerikuretisi.html">içerik üreticileri</a>
+          <a href="https://discord.gg/wbJRVpA" target="_blank">discord sunucumuz</a>
+          <a href="https://steamcommunity.com/groups/meduware" target="_blank">steam grubumuz</a>
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn" id="renkli" class="yazilar">yardım
+          <i class="fal fa-chevron-down fa-xs"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/yardim/oynanis.html">nasıl oynanır?</a>
+          <a href="/yardim/sss.html">sıkça sorulan sorular</a>
+          <a href="/yardim/kurallar.html">kurallar</a>
+          <a href="/yardim/">hayır, gerçekten yardıma ihtiyacım var!</a>
+        </div>
+      </div> 
+      <a href="/magaza/" id="renkli" class="yazilar">mağaza</a>
+      <a href="https://steamcommunity.com/id/medusacollins" target="_blank" id="renkli" class="yazilar">iletişim</a>
+        <div class="sagcerceve">
+            <a href="https://discord.gg/wbJRVpA" target="_blank" ><i class="fab fa-discord"></i></a>
+            <a href="/medusupporter/"><i class="fas fa-heart"></i></a>
+        </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" id="mobilbutton" onclick="myFunction()">&#9776;</a>
+    </div>
+            <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+      <div class="modal-container" id ="modal_container">
+        <div class="modal-text" id ="saklambacyazi">
+            <h1>Biraz sakinleşelim (o´･_･)っ </h1>
+            <p>
+                Bu yaptığın işlem direkt olarak sunucuya bağlanmanı sağlar. Bunu istediğine emin misin?
+            </p>
+            <button2 id="no_saklambac">
+                hayır
+            </button2>
+
+            <a type="button2" id="yes" href="steam://connect/45.10.56.56:27015" target="_blank" class= "button3">
+                evet kesinlikle!
+            </a>
+        </div>
+        <div class="modal-text" id ="hnsyazi">
+          <h1>Biraz sakinleşelim (o´･_･)っ </h1>
+          <p>
+              Bu yaptığın işlem direkt olarak sunucuya bağlanmanı sağlar. Bunu istediğine emin misin?
+          </p>
+          <button2 id="no_hns">
+              hayır
+          </button2>
+
+          <a type="button2" id="yes" href="steam://connect/185.243.182.38" target="_blank" class= "button3">
+              evet kesinlikle!
+          </a>
+      </div>
+      </div>
+        <script>
+            var baglan_saklambac =document.getElementById('baglan_saklambac');
+            var baglan_hns =document.getElementById('baglan_hns');
+            var saklambacyazi =document.getElementById('saklambacyazi');
+            var hnsyazi =document.getElementById('hnsyazi');
+            var modal_container =document.getElementById('modal_container');
+            var no_saklambac =document.getElementById('no_saklambac');
+            var no_hns =document.getElementById('no_hns');
+            var yes =document.getElementById('yes');
+        
+            baglan_saklambac.addEventListener('click', () => {
+            modal_container.classList.add('show');
+            saklambacyazi.classList.add('show');
+            hnsyazi.classList.remove('show');
+            });
+            baglan_hns.addEventListener('click', () => {
+            modal_container.classList.add('show');
+            hnsyazi.classList.add('show');
+            saklambacyazi.classList.remove('show');
+            });
+            no_saklambac.addEventListener('click', () => {
+               modal_container.classList.remove('show');
+               hnsyazi.classList.remove('show');
+               saklambacyazi.classList.remove('show');
+            });
+            no_hns.addEventListener('click', () => {
+               modal_container.classList.remove('show');
+               hnsyazi.classList.remove('show');
+               saklambacyazi.classList.remove('show');
+            });
+            yes.addEventListener('click', () => {
+               modal_container.classList.remove('show');
+            });
+            window.onclick = function(event) {
+            if (event.target == modal_container) {
+                modal_container.classList.remove('show');
+                hnsyazi.classList.remove('show');
+                saklambacyazi.classList.remove('show');
+            }}
+        </script>
+        <div class="anasayfa-yazisi">
+             <h1>Her anlamda kaliteli bir oyun deneyimi için gereken her şey.</h1>
+             <p>
+                Kaliteli eklentilerimiz, tecrübelerimiz ve verdiğimiz hizmet sayesinde ister sadece kaliteli 
+                zaman geçirmek isteyen birisi, ister kendini geliştirmeye çok hevesli birisi ya da sadece yeni başlayan 
+                biri ol; Meduware sunucularının diğer sunuculardan çok daha kaliteli ve üstüne düşünülmüş sistemleri 
+                içerdiğini görebilirsin.
+             </p>
+            <button4 id="indir">
+                çok yakında
+                Windows için indir
+            </button4>
+            <button4 id="indir-mobil">
+              çok yakında
+              Mobil için indir
+          </button4>
+        <div class="icerikyazisi">
+            <h1>İçerik üreticilerimiz</h1>
+        </div>
+        <div class="logolar">
+          <button1 id="gorunur2">
+          <img class="frigle-logo" id="frigle" src="/meduwarewebsitedata/frigle.jpg"></i>
+          </button1>
+        </div>
+        <div class="logolar-mobil">
+          <button1 id="gorunur2">
+          <a href="https://www.youtube.com/channel/UCBy8GTOX5FpX9FwzAst7Tng" target="_blank"><img class="frigle-logo" id="frigle" src="meduwarewebsitedata/frigle.jpg"></i></a>
+          </button1>
+        </div>
+        <div class="cerceveler">
+            <div class="frigle-cerceve" id="frigle_cerceve">
+                <div class="frigle-yazi">
+                    <button5 id="kapat">
+                        X
+                    </button5>
+                    <img class="frigle-profil" src="meduwarewebsitedata/frigle.jpg" ></i>
+                    <h1>Frigle</h1>
+                    <a href="https://www.youtube.com/channel/UCBy8GTOX5FpX9FwzAst7Tng" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="videolar">
+            <div class="frigle-video" id ="frigle_video">
+                <iframe id="frigle_video1" FrameBorder="0" allowFullScreen="allowFullScreen" width="420" height="236" src="https://www.youtube.com/embed/PMbozM6ZWek?enablejsapi=1&version=3&playerapiid=ytplayer">
+                </iframe>
+                <iframe id="frigle_video2" FrameBorder="0" allowFullScreen="allowFullScreen" width="420" height="236" src="https://www.youtube.com/embed/jqe90Cg54V8?enablejsapi=1&version=3&playerapiid=ytplayer">
+                </iframe>
+                <iframe id="frigle_video3" FrameBorder="0" allowFullScreen="allowFullScreen" width="420" height="236" src="https://www.youtube.com/embed/n5c7uvz3l5w?enablejsapi=1&version=3&playerapiid=ytplayer">
+                </iframe>
+            </div>
+        </div>
+        <div class="toplar">
+          <div class="frigle-top" id ="frigle_top">
+              <button7 id="top1"></button7>
+              <button7 id="top2"></button7>
+              <button8 id="top3"></button8>
+          </div>
+        </div>
+        <script>
+            const videos = document.querySelectorAll('iframe');
+            var frigle =document.getElementById('frigle');
+            var frigle_video1 =document.getElementById('frigle_video1');
+            var frigle_top =document.getElementById('frigle_top');
+            var frigle_cerceve =document.getElementById('frigle_cerceve');
+            var top1 =document.getElementById('top1');
+            var top2 =document.getElementById('top2');
+            var top3 =document.getElementById('top3');
+            var kapat =document.getElementById('kapat');
+            
+            var sira =1;
+        
+            frigle.addEventListener('click', () => {
+            frigle_cerceve.classList.add('show');
+            frigle_video1.classList.remove('show');
+            frigle_video2.classList.remove('show');
+            frigle_video3.classList.remove('show');
+                if(sira==1){
+            frigle_video1.classList.add('show');
+            frigle_top.classList.add('show');
+            document.getElementById("top1").className ="fas fa-circle";
+            document.getElementById("top2").className ="far fa-circle";
+            document.getElementById("top3").className ="far fa-circle";}
+                else if(sira==2){
+            frigle_video2.classList.add('show');
+            frigle_top.classList.add('show');
+            document.getElementById("top1").className ="far fa-circle";
+            document.getElementById("top2").className ="fas fa-circle";
+            document.getElementById("top3").className ="far fa-circle";}
+                else if(sira==3){
+            frigle_video3.classList.add('show');
+            frigle_top.classList.add('show');
+            document.getElementById("top1").className ="far fa-circle";
+            document.getElementById("top2").className ="far fa-circle";
+            document.getElementById("top3").className ="fas fa-circle";}
+            });
+            kapat.addEventListener('click', () => {
+               frigle_cerceve.classList.remove('show');
+               frigle_video1.classList.remove('show');
+               frigle_video2.classList.remove('show');
+               frigle_video3.classList.remove('show');
+               frigle_top.classList.remove('show');
+               videos.forEach(i => {
+                let source = i.src;
+                i.src = '';
+                i.src = source;
+                });
+            });
+            top1.addEventListener('click', () => {
+                sira =1;
+                frigle_video1.classList.add('show');
+                frigle_video2.classList.remove('show');
+                frigle_video3.classList.remove('show');
+                document.getElementById("top1").className ="fas fa-circle";
+                document.getElementById("top2").className ="far fa-circle";
+                document.getElementById("top3").className ="far fa-circle";
+            });
+            top2.addEventListener('click', () => {
+                sira =2;
+                frigle_video2.classList.add('show');
+                frigle_video1.classList.remove('show');
+                frigle_video3.classList.remove('show');
+                document.getElementById("top1").className ="far fa-circle";
+                document.getElementById("top2").className ="fas fa-circle";
+                document.getElementById("top3").className ="far fa-circle";
+            });
+            top3.addEventListener('click', () => {
+                sira =3;
+                frigle_video3.classList.add('show');
+                frigle_video1.classList.remove('show');
+                frigle_video2.classList.remove('show');
+                document.getElementById("top1").className ="far fa-circle";
+                document.getElementById("top2").className ="far fa-circle";
+                document.getElementById("top3").className ="fas fa-circle";
+            });
+            window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+            }
+        </script>
+        <div id="altmenu">
+            <a type="button" id="button1" href="/yardim/kullanimsartlari.html" class="hizmet">
+                Hizmet Kullanım Şartları
+            </a>
+            <a type="button" id="button2" href="/yardim/sozlesme.html" class="sozlesme">
+                Satın Alma Sözleşmesi
+            </a>
+            <a type="button" id="button3" href="/yardim/sss.html" class="sss">
+                Sıkça Sorulan Sorular
+            </a>
+        </div>
+    </body>
+</html>

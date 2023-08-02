@@ -1,0 +1,266 @@
+#altmenu{
+  top: 1350px;
+}
+
+#hiza{
+  width: 73.8vw;
+  position: relative;
+  margin-left: 13%;
+}
+
+.cerceve1{
+  width: 100%;
+  margin-top: 50px;
+  height: 60px;
+  background-color: #ced4da;
+}
+.cerceve2{
+  width: 100%;
+  height: 60px;
+  background-color: #e9ecef;
+}
+
+.yazi1{
+  float: left;
+  display: block;
+  color: #383838;
+  padding: 16px 30px;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  text-align: center;
+  user-select: none;
+  text-decoration: none;
+  font-size: 17px;
+}
+.yazi2 a{
+  float: left;
+  display: block;
+  color: #383838;
+  padding: 16px 0px;
+  margin-left: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+.yazi2 a:hover{
+  border-bottom-color: #5390d9;
+  border-bottom-style: solid;
+}
+.active{
+  border-bottom-color: #5390d9;
+  border-bottom-style: solid;
+}
+.image{
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
+}
+@media screen and (max-width: 2155px) {
+  .image{
+    background-position-y: -160px;
+  }
+}
+@media screen and (max-width: 1844px) {
+  .image{
+    background-position-y: -130px;
+  }
+}
+@media screen and (max-width: 1686px) {
+  .image{
+    background-position-y: -80px;
+  }
+}
+@media screen and (max-width: 1472px) {
+  .image{
+    background-position-y: -20px;
+  }
+}
+@media screen and (max-width: 1261px) {
+  .image{
+    background-size: 100% 100%;
+    background-position-y: 0px;
+  }
+}
+
+#medusupporterindirimi{
+  background-image: url(/meduwarewebsitedata/magaza/medusupporterindirimi.png);
+  display: block;
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  margin-top: 20px;
+  height: 305px;
+}
+
+.cerceve3{
+  width: 100%;
+  margin-top: 325px;
+  height: 850px;
+  background-color: #495057;
+  display: block;
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+}
+
+.cerceve3 h1{
+  margin-top: 50px;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-decoration: none;
+}
+.cerceve3 h2{
+  margin-top: 50px;
+  margin-left: 30px;
+  color: rgb(206, 206, 206);
+  text-align: left;
+  text-decoration: none;
+}
+.cerceve3 p1{
+  color: #ffffff;
+  margin-left: 30px;
+  line-height: 50px;
+  text-align: left;
+  text-decoration: none;
+}
+.cerceve3 p{
+  color: #ffffff;
+  margin-left: 30px;
+  text-align: left;
+  text-decoration: none;
+}
+.cerceve3 p3{
+  color: gold;
+}
+.alan2 h1{
+  color:rgb(255, 255, 255);
+}
+.alan2 p3{
+  color: rgb(138, 138, 138);
+}
+p4{
+  font-size: 14px;
+  color: #5390d9;
+}
+
+.link{
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  margin-top: 20px;
+  float: right;
+  margin-right: 100px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.alan2{
+  margin-top: 150px;
+}
+.normal{
+  opacity: 1;
+  display: block;
+}
+.mobil{
+  opacity: 0;
+  display: none;
+}
+
+.mobil .beraber p1{
+  display: table;
+  margin-right: 50%;
+  float: right;
+}
+.mobil p1{
+  float: left;
+}
+.mobil .beraber p3{
+  display: table;
+  margin-right: 50%;
+  float: right;
+}
+.mobil .beraber p4{
+  display: table;
+  margin-right: 47%;
+  float: right;
+}
+.mobil .beraber h2{
+  display: table;
+  margin-right: 50%;
+  float: right;
+}
+.mobil p{
+  margin-right: 50%;
+  float: right;
+}
+.mobil p3{
+  display: inline-block;
+}
+.mobil p4{
+  display: inline-block;
+}
+.mobil .alan2{
+  margin-top:450px;
+}
+@media screen and (max-width: 1261px) {
+  .normal{
+    opacity: 0;
+    display: none;
+  }
+  .mobil{
+    opacity: 1;
+    display: block;
+  }
+  .cerceve3{
+    height: 1300px;
+  }
+  #satinal{
+    margin-top: 50px;
+  }
+  #altmenu{
+    top: 1650px;
+  }
+}
+@media screen and (max-width: 800px){
+  .mobil .beraber p4{
+    margin-right: 45%;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .cerceve3 h1{
+    font-size: 20px;
+  }
+  .cerceve3 p1{
+    margin-left: 10px;
+  }
+  .mobil .beraber p4{
+    margin-right: 40%;
+  }
+  .mobil p{
+    display: block;
+    float: left;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 411px) {
+  .cerceve3 h1{
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 380px) {
+  #satinal{
+    margin-right: 10px;
+  }
+}
