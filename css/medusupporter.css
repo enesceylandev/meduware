@@ -3,7 +3,7 @@
 }
 .anayazi{
     color: #fff;
-    font-family: "torus";
+    font-family: "Torus";
     margin-top: 50px;
     padding: 10px 30px;
 }
@@ -37,7 +37,7 @@
 }
 .baslik{
 color: gold;
-font-family: "torus";
+font-family: "Torus";
 text-align: center;
 }
 
@@ -64,7 +64,7 @@ list-style-type: circle;
 margin-left: 15%;
 margin-bottom: 1%;
 width: 80%;
-font-family: "torus";
+font-family: "Torus";
 display: flex;
 color: rgba(255, 255, 255, 0.822);
 }

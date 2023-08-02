@@ -1,12 +1,12 @@
 .altyazi{
     color: #fff;
-    font-family: "torus";
+    font-family: "Torus";
     text-align: center;
     margin-top: 200px;
 }
 .anayazi h1{
   color: #fff;
-  font-family: "torus";
+  font-family: "Torus";
   text-align: center;
   margin-top: 50px;
   margin-left: 0%;
@@ -25,7 +25,7 @@ margin-bottom: 5%;
 }
 .baslik{
 color: rgb(255, 196, 0);
-font-family: "torus";
+font-family: "Torus";
 font-size: 70%;
 text-align: center;
 margin-top: 100px;
@@ -35,7 +35,7 @@ list-style-type: circle;
 margin-left: 15%;
 margin-bottom: 1%;
 width: 80%;
-font-family: "torus";
+font-family: "Torus";
 display: flex;
 color: rgba(255, 255, 255, 0.822);
 }
@@ -55,7 +55,7 @@ color: rgba(255, 255, 255, 0.822);
     background-color: #fff;
     text-decoration:none;
     text-align: center;
-    font-family: "torus";
+    font-family: "Torus";
     border: 14px solid transparent;
     border-radius: 5px;
     margin-top: 10px;

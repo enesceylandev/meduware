@@ -3,7 +3,7 @@
 }
 .anayazi{
     color: #fff;
-    font-family: "torus";
+    font-family: "Torus";
     text-align: center;
     margin-top: 200px;
 }
@@ -13,7 +13,7 @@ margin-bottom: 5%;
 }
 .baslik{
 color: #fff;
-font-family: "torus";
+font-family: "Torus";
 font-size: 130%;
 margin-left: 7%;
 margin-top: 4%;
@@ -23,7 +23,7 @@ margin-bottom: 1%;
 margin-left: 10%;
 margin-bottom: 1%;
 width: 80%;
-font-family: "torus";
+font-family: "Torus";
 display: flex;
 color: rgba(255, 255, 255, 0.74);
 }
@@ -32,7 +32,7 @@ list-style-type: circle;
 margin-left: 15%;
 margin-bottom: 1%;
 width: 80%;
-font-family: "torus";
+font-family: "Torus";
 display: flex;
 color: rgba(255, 255, 255, 0.822);
 }
@@ -50,7 +50,7 @@ color: rgba(255, 255, 255, 0.822);
     }
     .baslik{
         color: #fff;
-        font-family: "torus";
+        font-family: "Torus";
         text-align: left;
         margin-left: 2%;
     }

@@ -3,7 +3,7 @@
 }
 .anayazi{
     color: #fff;
-    font-family: "torus";
+    font-family: "Torus";
     text-align: center;
     margin-top: 70px;
 }
@@ -13,7 +13,7 @@ margin-bottom: 3.8%;
 }
 .baslik{
 color: #fff;
-font-family: "torus";
+font-family: "Torus";
 font-size: 70%;
 margin-left: 5%;
 }
@@ -21,7 +21,7 @@ margin-left: 5%;
     margin-left: 10%;
     margin-bottom: 2%;
     width: 80%;
-    font-family: "torus";
+    font-family: "Torus";
     display: flex;
     color: rgba(255, 255, 255, 0.548);
 }
@@ -29,7 +29,7 @@ margin-left: 5%;
     margin-left: 10%;
     margin-bottom: 1%;
     width: 80%;
-    font-family: "torus";
+    font-family: "Torus";
     display: flex;
     color: rgba(255, 255, 255, 0.548);
 }

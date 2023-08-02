@@ -54,7 +54,7 @@ body{
   .anacerceve li a{
     text-decoration: none;
     color: #fff;
-    font-family: "torus";
+    font-family: "Torus";
     display: block;
     overflow: hidden;
     padding: 10px 6px;
@@ -290,7 +290,7 @@ body{
     position: relative;
     box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.767);
     background-color: rgba(30, 33, 36, 0.247);
-    font-family: "torus";
+    font-family: "Torus";
     display: block;
     overflow: hidden;
 }
@@ -422,7 +422,7 @@ button4{
     background-color: #fff;
     text-decoration:none;
     text-align: center;
-    font-family: "torus";
+    font-family: "Torus";
     border: 14px solid transparent;
     border-radius: 5px;
     z-index: 2;

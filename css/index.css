@@ -15,7 +15,7 @@
 
 .anasayfa-yazisi{
     color: #fff;
-    font-family: "torus";
+    font-family: "Torus";
     text-align: center;
     margin-top: 120px;
 }
@@ -24,7 +24,7 @@
 }
 .anasayfa-yazisi p{
     color: rgba(255, 255, 255, 0.699);
-    font-family: "torus";
+    font-family: "Torus";
     text-align: center;
     height: 10%;
     font-size: 100%;
@@ -35,7 +35,7 @@
 }
 .icerikyazisi{
     color: #fff;
-    font-family: "torus";
+    font-family: "Torus";
     font-size: 13px;
     padding: 0px 20px;
     margin-top: 140px;
@@ -123,7 +123,7 @@
 }
 .baslik{
     color: rgb(255, 196, 0);
-    font-family: "torus";
+    font-family: "Torus";
     font-size: 70%;
     text-align: center;
     margin-top: 300px;

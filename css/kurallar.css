@@ -3,7 +3,7 @@
 }
 .kurallarimiz{
         color: #fff;
-        font-family: "torus";
+        font-family: "Torus";
         text-align: center;
         margin-top: 70px;
 }
@@ -13,13 +13,13 @@
 }
 .baslik{
     color: #fff;
-    font-family: "torus";
+    font-family: "Torus";
     font-size: 75%;
     margin-left: 7%;
 }
 .ikiliyazi{
     display: flex;
-    font-family: "torus";
+    font-family: "Torus";
     margin-bottom: 1%;
     margin-left: 10%;
 }
@@ -48,7 +48,7 @@
     margin-left: 10%;
     margin-bottom: 2%;
     width: 80%;
-    font-family: "torus";
+    font-family: "Torus";
     display: flex;
     color: rgba(255, 255, 255, 0.548);
 }
@@ -57,7 +57,7 @@
     margin-left: 15%;
     margin-bottom: 1%;
     width: 80%;
-    font-family: "torus";
+    font-family: "Torus";
     display: flex;
     color: rgba(255, 255, 255, 0.822);
 }
