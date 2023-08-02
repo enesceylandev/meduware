@@ -158,7 +158,7 @@
 }
 
 #vippaket{
-  background-image: url(./meduwarewebsitedata/magaza/vippaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/vippaket.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -171,7 +171,7 @@
   opacity: 1;
 }
 #ustduzeypaket{
-  background-image: url(./meduwarewebsitedata/magaza/ustduzeypaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/ustduzeypaket.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -184,7 +184,7 @@
   opacity: 1;
 }
 #idealpaket{
-  background-image: url(./meduwarewebsitedata/magaza/idealpaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/idealpaket.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -197,7 +197,7 @@
   opacity: 1;
 }
 #ekonomikpaket{
-  background-image: url(./meduwarewebsitedata/magaza/ekonomikpaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/ekonomikpaket.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -210,7 +210,7 @@
   opacity: 1;
 }
 #standartpaket{
-  background-image: url(./meduwarewebsitedata/magaza/standartpaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/standartpaket.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;

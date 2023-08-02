@@ -85,7 +85,7 @@
 }
 
 #ekonomikpaket{
-  background-image: url(./meduwarewebsitedata/magaza/ekonomikpaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/ekonomikpaket.png);
   display: block;
   position: absolute;
   z-index: 0;

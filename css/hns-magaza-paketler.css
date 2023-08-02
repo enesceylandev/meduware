@@ -158,7 +158,7 @@
 }
 
 #premiumpaket{
-  background-image: url(./meduwarewebsitedata/magaza/premiumpaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/premiumpaket.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -171,7 +171,7 @@
   opacity: 1;
 }
 #kapsamlipaket{
-  background-image: url(./meduwarewebsitedata/magaza/kapsamlipaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/kapsamlipaket.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -184,7 +184,7 @@
   opacity: 1;
 }
 #gorkemlipaket{
-  background-image: url(./meduwarewebsitedata/magaza/gorkemlipaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/gorkemlipaket.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -197,7 +197,7 @@
   opacity: 1;
 }
 #unban{
-  background-image: url(./meduwarewebsitedata/magaza/unban.png);
+  background-image: url(../meduwarewebsitedata/magaza/unban.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;

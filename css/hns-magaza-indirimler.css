@@ -182,7 +182,7 @@
 }
 
 #yetkiindirim{
-  background-image: url(./meduwarewebsitedata/magaza/yetkiindirim.png);
+  background-image: url(../meduwarewebsitedata/magaza/yetkiindirim.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -195,7 +195,7 @@
   opacity: 1;
 }
 #krediindirim{
-  background-image: url(./meduwarewebsitedata/magaza/krediindirim.png);
+  background-image: url(../meduwarewebsitedata/magaza/krediindirim.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -208,7 +208,7 @@
   opacity: 1;
 }
 #medusupporterindirim{
-  background-image: url(./meduwarewebsitedata/magaza/medusupporterindirimi.png);
+  background-image: url(../meduwarewebsitedata/magaza/medusupporterindirimi.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;

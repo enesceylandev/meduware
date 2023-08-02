@@ -85,7 +85,7 @@
 }
 
 #standartpaket{
-  background-image: url(./meduwarewebsitedata/magaza/standartpaket.png);
+  background-image: url(../meduwarewebsitedata/magaza/standartpaket.png);
   display: block;
   position: absolute;
   z-index: 0;

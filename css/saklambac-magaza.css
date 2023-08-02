@@ -156,7 +156,7 @@
 }
 
 #sunucuyardimcisi{
-  background-image: url(./meduwarewebsitedata/magaza/sunucuyardimcisi.png);
+  background-image: url(../meduwarewebsitedata/magaza/sunucuyardimcisi.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -169,7 +169,7 @@
   opacity: 1;
 }
 #ustadmin{
-  background-image: url(./meduwarewebsitedata/magaza/ustadmin.png);
+  background-image: url(../meduwarewebsitedata/magaza/ustadmin.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -182,7 +182,7 @@
   opacity: 1;
 }
 #admin{
-  background-image: url(./meduwarewebsitedata/magaza/admin.png);
+  background-image: url(../meduwarewebsitedata/magaza/admin.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -195,7 +195,7 @@
   opacity: 1;
 }
 #admin{
-  background-image: url(./meduwarewebsitedata/magaza/admin.png);
+  background-image: url(../meduwarewebsitedata/magaza/admin.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;
@@ -208,7 +208,7 @@
   opacity: 1;
 }
 #medusupporter{
-  background-image: url(./meduwarewebsitedata/magaza/medusupporter.png);
+  background-image: url(../meduwarewebsitedata/magaza/medusupporter.png);
   transition: 0.5s ease;
   display: block;
   position: absolute;

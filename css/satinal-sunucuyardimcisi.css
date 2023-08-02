@@ -85,7 +85,7 @@
 }
 
 #sunucuyardimcisi{
-  background-image: url(./meduwarewebsitedata/magaza/sunucuyardimcisi.png);
+  background-image: url(../meduwarewebsitedata/magaza/sunucuyardimcisi.png);
   display: block;
   position: absolute;
   z-index: 0;
